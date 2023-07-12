@@ -1,74 +1,44 @@
-# Getting Started with Create React App
+# React Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### weather-react version 0.1.0
 
-## Available Scripts
+A simple weather app with an autocomplete searchbar to find out the weather in different cities.
 
-In the project directory, you can run:
+_Weather icons from https://www.amcharts.com/_
 
-### `yarn start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Live on Vercel
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- https://weather-react-jet.vercel.app/
 
-### `yarn test`
+### Technologies used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- JavaScript ES6
+- React 18 CRA
+- React Testing Library
+- Prettier 3
+- Dotenv
+- Vercel CLI
 
-### `yarn build`
+### How to run locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone repository
+2. Run `npm i` on root directory
+3. Create `.env` file manually or run command: `touch .env` on root directory
+4. Obtain free API keys from [GeoDB](https://rapidapi.com/wirefreethought/api/geodb-cities/) and [OpenWeather](https://openweathermap.org/); then create environmental variables using the name format from `.env.example`
+5. Run `npm start` to see app on http://localhost:3000/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### What's left to do? What I will do to improve weather-react:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Write tests and automate testing using GitHub actions
+- Improve styling with a CSS library (tbd), add animations to transitions and dark/light mode
+- Make webapp responsive for smaller screens
 
-### `yarn eject`
+### Conclusion
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+I enjoyed working with GeoDB and OpenWeather APIs, I think they're a great learning resource although I was careful not to surpass the requests limit on the free subscriptions.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-### Credits:
-Icons: https://www.amcharts.com/
+<sub>made with ♥ by eni<sub>
